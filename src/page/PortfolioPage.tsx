@@ -4,13 +4,13 @@ import { CustomCardProyect } from "../components/CustomCardProyect";
 export const ProfolioPage = () => {
   return (
     <section className="w-full">
-      <h3 className="text-[32px] font-bold text-center mb-10">PORTFOLIO</h3>
-      <div className="w-[500px] max-[370px]:hidden flex justify-between font-bold mb-[100px] mx-auto">
+      <h3 className="text-[32px] font-bold text-center mb-24">PORTFOLIO</h3>
+      {/* <div className="w-[500px] max-[370px]:hidden flex justify-between font-bold mb-[100px] mx-auto">
         <p>Mobile App</p>
         <p>Website</p>
         <p>Desktop</p>
         <p>Other Projects</p>
-      </div>
+      </div> */}
       <section className="flex flex-col lg:item-center gb-withe gap-y-14">
         <CustomCardProyect lado={0} />
         <CustomCardProyect lado={1} />

@@ -9,7 +9,7 @@ export const NavBar = () => {
         
       </h3>
 
-      <section className="flex max-[370px]:flex-col gap-x-[35px]  ml-auto">
+      <section className="flex flex-wrap gap-x-[35px]  ml-auto">
         <p>HOME</p>
         <p>ABOUT ME</p>
         <p>PORTFOLIO</p>

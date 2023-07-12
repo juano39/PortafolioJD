@@ -11,8 +11,8 @@ import { ServicesPage } from "./page/ServicesPage";
 
 export const App = () => {
   return (
-    <div className=" text-white z-0 w-full flex justify-center bg-gradient-to-t from-[#0A0A0B] from-1%  pt-3 to-[#220E44] to-40% relative">
-      <div className="min-[769px]:w-[1360px]  max-[768px]:w-full min-[768px]:px-[90px] max-[768px]:px-[10px] z-40 ">
+    <div className=" text-white z-0 w-full  flex justify-center bg-gradient-to-t from-[#0A0A0B] from-1%  pt-3 to-[#220E44] to-40% relative">
+      <div className="max-w-[1360px]  w-full min-[768px]:px-[90px] max-[768px]:px-[10px] z-40 ">
         <NavBar />
         <HomePage />
         <AboutMePage />

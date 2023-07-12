@@ -7,7 +7,8 @@ export const ScrollToTopButton = () => {
 
   useEffect(() => {
     const toggleVisibility = () => {
-      if (window.pageYOffset > 300) {
+      // console.log(window.scrollY );
+      if (window.scrollY > 300) {
         setIsVisible(true);
       } else {
         setIsVisible(false);

@@ -1,0 +1,53 @@
+{
+  "pageTitle": "professional skills",
+  "experience": [
+    {
+      "languages": "htlm",
+      "image": "html.png"
+    },
+    {
+      "languages": "tailwindcss",
+      "image": "tailwind.png"
+    },
+    {
+      "languages": "javascript",
+      "image": "javascript.png"
+    },
+    {
+      "languages": "react.js",
+      "image": "react.png"
+    },
+    {
+      "languages": "vue.js",
+      "image": "vue.png"
+    },
+    {
+      "languages": "angular.js",
+      "image": "angular.png"
+    },
+    {
+        "languages": "Next",
+        "image": "next.png"
+    },
+    {
+      "languages": "node.js",
+      "image": "nodejs.png"
+    },
+    {
+      "languages": "express.js",
+      "image": "express.png"
+    },
+    {
+      "languages": "figma",
+      "image": "figma.png"
+    },
+    {
+        "languages": "python",
+        "image": "python.png"
+    },
+    {
+        "languages": "go",
+        "image": "golang.png"
+    }
+  ]
+}

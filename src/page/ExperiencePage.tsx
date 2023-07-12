@@ -3,7 +3,7 @@ import data from '../data/experienceData.json'
 
 export const ExperiencePage = () => {
   return (
-    <section className="mb-20">
+    <section id="experence" className="mb-20">
       <h4 className="text-center uppercase text-[32px] font-bold mb-[100px]">
         {data.pageTitle}
       </h4>

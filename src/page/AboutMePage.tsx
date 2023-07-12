@@ -9,7 +9,7 @@ export const AboutMePage = () => {
     AOS.init();
   }, []);
   return (
-    <section className="flex w-full max-[768px]:flex-wrap mb-[150px] gap-x-7 justify-around">
+    <section id="about" className="flex w-full max-[768px]:flex-wrap mb-[150px] gap-x-7 justify-around">
       <article data-aos="flip-left" className="relative max-[768px]:mb-8">
         <img className="relative z-20" src="imgperfil.png" alt="" />
         <div className=" w-full max-h-[443px] h-full max-lg:h-[300px] max-md:hidden rounded-[20px] border-[5px]  border-[#1C9EE7] absolute top-12 left-12 z-10"></div>

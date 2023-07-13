@@ -22,7 +22,7 @@ export const App = () => {
           <ScrollToTopButton />
           <ContactPage />
         </div>
-        <div className="absolute z-20 bottom-0 w-full bg-gradient-to-r from-[#3b1b73] from-10% to-[#1C9EE7] h-[700px] rounded-tr-[80px] rounded-tl-[80px]"></div>
+        <div className="absolute z-0 bottom-0 w-full bg-gradient-to-r from-[#3b1b73] from-10% to-[#1C9EE7] h-[700px] rounded-tr-[80px] rounded-tl-[80px]"></div>
         <div className="w-[100px] h-[200px] left-0 rounded-r-full absolute bottom-[580px]   bg-gradient-to-b from-[#3b1b7394]  to-[#1c9de786]"></div>
         <div className="w-[100px] h-[200px] rounded-l-full absolute bottom-[580px] right-0  bg-gradient-to-b from-[#3b1b7394]  to-[#1c9de786]"></div>
       </div>

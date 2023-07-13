@@ -32,8 +32,8 @@ export const ScrollToTopButton = () => {
   return (
     <>
       {isVisible && (
-        <button
-          className="fixed z-10 bottom-4  right-4 bg-gradient-to-r hover:shadow-[#1C9EE7] hover:shadow-md from-[#1c9de7aa] to-[#551160a0] text-white p-3 rounded-full"
+        <button 
+          className="fixed animate-flotin z-10 bottom-4  right-4 bg-gradient-to-r hover:shadow-[rgba(248,244,244,0.21)] hover:border hover:border-[#dadce0] from-[#1c9de7aa] to-[#551160a0] text-white p-3 rounded-full"
           onClick={scrollToTop}
         >
           <SlArrowUp/>

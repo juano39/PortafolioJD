@@ -25,7 +25,7 @@ export const CustomCardProyect = ({ lado }: Props) => {
     >
       <section className="relative">
         <img
-          className="relative  z-20 w-[480px] h-[242px]"
+          className="relative animate-flotin z-20 w-[480px] h-[242px]"
           src="proyect.png"
           alt=""
         />

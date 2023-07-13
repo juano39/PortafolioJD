@@ -19,6 +19,7 @@ export const HomePage = () => {
 
           <h1
             data-aos="fade-right"
+            translate="no"
             className="max-w-[480px] font-bold md:text-[105px] text-6xl  sm:text-[70px] leading-none mb-[50px]"
           >
             Front End Developer
@@ -30,7 +31,7 @@ export const HomePage = () => {
         </article>
         
           
-        <img className="sm:w-[40%] w-[80%] relative top-1/2  animate-flotin" src="developer.png" alt="" />
+        <img className="sm:w-[40%] w-[80%] animate-flotin" src="developer.png" alt="" />
         
       </section>
     </header>

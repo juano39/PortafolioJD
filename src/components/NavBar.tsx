@@ -12,7 +12,7 @@ export const NavBar = () => {
         <a  className="uppercase" href="#about">about me</a>
         <a  className="uppercase" href="#portfolio">portfolio</a>
         <a  className="uppercase" href="#services">services</a>
-        <a  className="uppercase" href="#experence">experence</a>
+        <a  className="uppercase" href="#experence">SKILLS</a>
       </section>
       
         <CustomButton classStyle="ml-auto " text="Contacto" />

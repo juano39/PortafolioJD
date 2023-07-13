@@ -10,10 +10,22 @@ export const HomePage = () => {
   }, []);
   return (
     <header id="home" className="mb-[150px] ">
-      <section className="flex relative flex-wrap justify-between gap-6 max-lg:justify-center items-center ">
+       <svg
+          viewBox="0 0 500 150"
+          preserveAspectRatio="none"
+          className="w-full h-screen absolute left-0 top-0 z-[-1]"
+        >
+          <path
+            d="M-63.48,-51.78 C149.99,150.00 568.56,196.88 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
+            className="fill-[#5e28c2] stroke-none z-0"
+          ></path>
+        </svg>
+      <section className="flex relative max-sm:flex-wrap justify-between gap-6 max-lg:justify-center items-center ">
         <article className="max-lg:w-full items-start flex flex-col ">
-          <h3 data-aos="fade" className="text-[32px] max-sm:text-2xl text-[#E0E0E0]">
-
+          <h3
+            data-aos="fade"
+            className="text-[32px] max-sm:text-2xl text-[#E0E0E0]"
+          >
             Juan Daniel Valderrama
           </h3>
 
@@ -29,11 +41,14 @@ export const HomePage = () => {
           </h1>
           <CustomButton text="Previous Projects" />
         </article>
-        
-          
-        <img className="sm:w-[40%] w-[80%] animate-flotin" src="developer.png" alt="" />
-        
+
+        <img
+          className="sm:w-[40%]  w-[80%] animate-flotin"
+          src="developer.png"
+          alt=""
+        />
       </section>
+      
     </header>
   );
 };

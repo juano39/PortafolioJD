@@ -2,7 +2,7 @@ import { CustomButton } from "./CustomButton";
 
 export const NavBar = () => {
   return (
-    <nav className="w-full mx-auto mb-[80px]  font-bold flex flex-wrap items-center ">
+    <nav className="w-full mx-auto mb-[80px] z-10  font-bold flex flex-wrap items-center ">
       <h3>
         <img src="logonav.png" />
       </h3>

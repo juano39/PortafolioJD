@@ -2,6 +2,7 @@ import "aos/dist/aos.css";
 
 import AOS from "aos";
 import { CustomButton } from "../components/CustomButton";
+import { NavBar } from "../components/NavBar";
 import { useEffect } from "react";
 
 export const HomePage = () => {
@@ -10,14 +11,15 @@ export const HomePage = () => {
   }, []);
   return (
     <header id="home" className="mb-[150px] ">
+      <NavBar />
        <svg
           viewBox="0 0 500 150"
           preserveAspectRatio="none"
-          className="w-full h-screen absolute left-0 top-0 z-[-1]"
+          className="w-full h-screen max-sm:hidden absolute left-0 top-0 z-[-1]"
         >
           <path
             d="M-63.48,-51.78 C149.99,150.00 568.56,196.88 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
-            className="fill-[#5e28c2] stroke-none z-0"
+            className="fill-[#5e28c2a7] stroke-none z-0"
           ></path>
         </svg>
       <section className="flex relative max-sm:flex-wrap justify-between gap-6 max-lg:justify-center items-center ">

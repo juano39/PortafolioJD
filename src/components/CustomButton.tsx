@@ -2,6 +2,7 @@ interface Props {
     text: string
     classStyle?: string
     visivility?: boolean
+    click?: () => void
 }
 export const CustomButton = ({text, classStyle, visivility}: Props) => {
   return (

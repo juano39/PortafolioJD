@@ -8,6 +8,7 @@ export const AboutMePage = () => {
   useEffect(() => {
     AOS.init();
   }, []);
+
   return (
     <section
       id="about"
@@ -33,19 +34,17 @@ export const AboutMePage = () => {
         </p>
         <div className="flex flex-wrap gap-x-10 gap-y-4">
           <CustomButton classStyle="w-[200px]" text="HIRE ME" />
-          <CustomButton
-            classStyle="mim-[768px]:w-[200px]"
-            text="RESUME"
-            visivility
-          />
+          
+          <a href="cvd.pdf" target="_blank"  download={'cvd.pdf'}>
+            {" "}
+            <CustomButton
+              classStyle="mim-[768px]:w-[200px]"
+              text="RESUME"
+              visivility
+            />
+          </a>
         </div>
       </article>
     </section>
   );
 };
-
-
-
-
-
-

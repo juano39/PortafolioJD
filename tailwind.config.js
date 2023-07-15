@@ -28,7 +28,7 @@ export default {
         bottomLine: {
           "50%, 100%": {
             margin: "0 auto",
-            transform: "translateY(-9px) rotate(45deg)",
+            transform: "translateY(-13px) rotate(45deg)",
           },
         },
         bottomLineCancel: {

@@ -12,8 +12,8 @@ export const NavBar = () => {
 
       <section
         className={`flex ${
-          toggle ?"max-sm:animate-navbarCancel" :  "max-sm:animate-navbar"
-        } max-sm:bg-black max-sm:py-7 max-sm:fixed max-sm:w-screen max-sm:h-screen  max-sm:text-3xl  top-0 left-0 justify-between items-center  uppercase max-sm:flex-col max-sm:gap-y-4 sm:flex-wrap gap-x-[35px]`}
+          toggle ?"max-sm:animate-navbarCancel" :  "opacity-0"
+        } max-sm:bg-black max-sm:py-14 max-sm:fixed max-sm:w-[50vw] max-sm:h-screen  max-sm:text-2xl  top-0 right-0  justify-between items-center  uppercase max-sm:flex-col max-sm:gap-y-4 sm:flex-wrap gap-x-[35px]`}
       >
         <a onClick={hanldeHaburger} href="#home">home</a>
         <a onClick={hanldeHaburger} href="#about">about me</a>
@@ -23,21 +23,21 @@ export const NavBar = () => {
       </section>
       <div
         onClick={hanldeHaburger}
-        className="sm:hidden w-12 h-12 cursor-pointer fixed right-3 top-3 "
+        className="sm:hidden w-12 h-12 cursor-pointer fixed right-[2PX] top-6 "
       >
         <span
-          className={`w-[80%] ${
-            toggle ? "animate-topLine" : "animate-topLineCancel "
+          className={`w-[80%] mb-3 ${
+            toggle ? "animate-topLine" : " "
+          } h-[2px]  bg-white mb-2 rounded-md block`}
+        ></span>
+        <span
+          className={`w-[80%] mb-3 ${
+            toggle ? "animate-middleLine" : ""
           } h-[2px]  bg-white mb-2 rounded-md block`}
         ></span>
         <span
           className={`w-[80%] ${
-            toggle ? "animate-middleLine" : "animate-middleLineCancel"
-          } h-[2px]  bg-white mb-2 rounded-md block`}
-        ></span>
-        <span
-          className={`w-[80%] ${
-            toggle ? "animate-bottomLine" : "animate-bottomLineCancel"
+            toggle ? "animate-bottomLine" : ""
           } h-[2px]  bg-white mb-2 rounded-md block`}
         ></span>
       </div>

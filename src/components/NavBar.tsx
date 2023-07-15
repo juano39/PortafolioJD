@@ -2,7 +2,7 @@ import { CustomButton } from "./CustomButton";
 import { useState } from "react";
 
 export const NavBar = () => {
-  const [toggle, setToggle] = useState(true);
+  const [toggle, setToggle] = useState(false);
   const hanldeHaburger = () => setToggle(!toggle);
   return (
     <nav className="w-full relative mx-auto sm mb-[80px] z-10  font-bold flex flex-wrap justify-between items-center ">
@@ -12,7 +12,7 @@ export const NavBar = () => {
 
       <section
         className={`flex ${
-          toggle ?"animate-navbarCancel" :  "animate-navbar"
+          toggle ?"max-sm:animate-navbarCancel" :  "max-sm:animate-navbar"
         } max-sm:bg-black max-sm:py-7 max-sm:fixed max-sm:w-screen max-sm:h-screen  max-sm:text-3xl  top-0 left-0 justify-between items-center  uppercase max-sm:flex-col max-sm:gap-y-4 sm:flex-wrap gap-x-[35px]`}
       >
         <a onClick={hanldeHaburger} href="#home">home</a>
@@ -23,7 +23,7 @@ export const NavBar = () => {
       </section>
       <div
         onClick={hanldeHaburger}
-        className="sm:hidden w-12 h-12 cursor-pointer "
+        className="sm:hidden w-12 h-12 cursor-pointer fixed right-3 top-3 "
       >
         <span
           className={`w-[80%] ${

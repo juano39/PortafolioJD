@@ -13,7 +13,7 @@ export const CustomCardServices = ({ image, text, title }: Props) => {
     AOS.init();
   }, []);
   return (
-    <article data-aos="flip-up" className="md:w-[400px] w-full inline-block  shadow-[0_10px_30px_0_rgba(28,158,231,0.40)] min-[370px]:h-[300px] border-[5px] rounded-[20px] border-[#1c9ee7] p-5">
+    <article data-aos="flip-up" className="md:w-[400px] w-full inline-block  shadow-[0_8px_32px_0_rgba(31,38,135,0.37)] bg-[#ffffff41] backdrop-blur min-[370px]:h-[300px]  rounded-[10px]  p-5">
       <div className="flex items-center gap-x-3 mb-5">
         <img
           className="bg-[#E0E0E0] max-w-[60px] rounded-full"

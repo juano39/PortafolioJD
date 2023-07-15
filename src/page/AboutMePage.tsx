@@ -12,7 +12,7 @@ export const AboutMePage = () => {
   return (
     <section
       id="about"
-      className="flex w-full max-[768px]:flex-wrap mb-[150px] gap-x-7 justify-around"
+      className="flex min-[768px]:px-[90px] max-[768px]:px-[10px] w-full max-[768px]:flex-wrap min-h-screen pt-14   gap-x-7 justify-around"
     >
       <article data-aos="flip-left" className="relative max-[768px]:mb-8">
         <img className="relative z-20" src="imgperfil.png" alt="" />
@@ -35,7 +35,7 @@ export const AboutMePage = () => {
         <div className="flex flex-wrap gap-x-10 gap-y-4">
           <CustomButton classStyle="w-[200px]" text="HIRE ME" />
           
-          <a href="cvd.pdf" target="_blank"  download={'cvd.pdf'}>
+          <a className=" max-md:w-full" href="cvd.pdf" target="_blank"  download={'cvd.pdf'}>
             {" "}
             <CustomButton
               classStyle="mim-[768px]:w-[200px]"

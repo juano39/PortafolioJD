@@ -33,9 +33,9 @@ export const CustomCardProyect = ({ lado }: Props) => {
       </section>
 
       <section className="min-[768px]:w-[529px] mt-3">
-        <h4 className="text-2xl text-[#1C9EE7] mb-5">PROYECTO {lado + 1}</h4>
+        <h4 className="text-2xl font-bold text-[#778da9] mb-5">PROYECTO {lado + 1}</h4>
         <h5 className="text-2xl font-bold mb-5">WEB DE TENIS</h5>
-        <p className="text-[#E0E0E0] min-[768px]:h-[120px] ">
+        <p className="text-[#e0e1dd] min-[768px]:h-[120px] ">
           Lorem Ipsum es simplemente el texto de relleno de las imprentas y
           archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de
           las industrias desde el año 1500, cuando un impresor (N. del T.

@@ -14,7 +14,13 @@ export default {
       },
       animation: {
         flotin: 'flotin 4s ease-in-out infinite'
-      }
+      },
+      backgroundImage: {
+        'fondo': "url('fondo1.png')",
+        'about': "url('fondoabout.png')",
+        
+      },
+      
     },
   },
   plugins: [],

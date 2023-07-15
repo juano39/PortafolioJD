@@ -10,7 +10,7 @@ export const HomePage = () => {
     AOS.init();
   }, []);
   return (
-    <header id="home" className="mb-[150px] ">
+    <header id="home" className=" h-screen min-[768px]:px-[90px] max-[768px]:px-[10px]  ">
       <NavBar />
        <svg
           viewBox="0 0 500 150"

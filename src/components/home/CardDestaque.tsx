@@ -6,11 +6,11 @@ export const CardDestaque = () => {
         <span className="text-5xl text-[#12F7D6] mr-4">4</span>Programming
         Language
       </p>
-      <p className="flex justify-between ">
+      <p className="flex justify-between items-center">
         {" "}
         <span className="text-5xl text-[#12F7D6] mr-4">9</span>Development Tools
       </p>
-      <p className="flex justify-between ">
+      <p className="flex justify-between items-center">
         {" "}
         <span className="text-5xl text-[#12F7D6] mr-4">4</span>Years of
         Experience

@@ -27,7 +27,7 @@ export const CardIntro = () => {
           </p>
         </article>
 
-        <article className="flex flex-wrap gap-2 justify-center text-sm font-thin mt-4">
+        <article className="flex flex-wrap gap-2 justify-center text-sm font-thin mt-4 " translate="no">
           <p className="bg-[#12F7D6] rounded-full px-2 text-[#292F36] ">JS</p>
           <p className="bg-[#12F7D6] rounded-full px-2 text-[#292F36] ">
             REACT

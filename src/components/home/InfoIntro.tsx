@@ -1,4 +1,3 @@
-import React from "react";
 
 export const InfoIntro = () => {
   return (
@@ -8,7 +7,7 @@ export const InfoIntro = () => {
         <h1 className="text-3xl flex flex-col pl-3">
           <span>Hey</span>
           <span>
-            I’m <span className="text-[#12F7D6]">Juan Daniel</span>,
+            I’m<span className="text-[#12F7D6]">Juan Daniel</span>,
           </span>
           <span>Full-stack developer</span>
         </h1>

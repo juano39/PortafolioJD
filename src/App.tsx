@@ -1,27 +1,14 @@
-import { AboutMePage } from "./page/AboutMePage";
 import { BrowserRouter } from "react-router-dom";
-import { ContactPage } from "./page/ContactPage";
-import { ExperiencePage } from "./page/ExperiencePage";
 import { HomePage } from "./page/HomePage";
-import { ProfolioPage } from "./page/PortfolioPage";
-import { ScrollToTopButton } from "./components/ScrollToTopButton";
-import { ServicesPage } from "./page/ServicesPage";
+import { NavBar } from "./components/Navbar";
 
 export const App = () => {
   return (
     <BrowserRouter>
-      <div className=" text-white z-0 w-full  bg-gradient-to-t from-[#0A0A0B] from-1%  pt-3 to-[#220E44] to-40% flex justify-center relative">
-        <div className="max-w-[1360px] w-full z-40 ">
-          <HomePage />
-          <AboutMePage />
-          <ProfolioPage />
-          <ServicesPage />
-          <ExperiencePage />
-          <ScrollToTopButton />
-          <ContactPage />
-        </div>
-        
-        
+      <div className="bg-[#292F36] text-[#FFFFFF] font-mono px-8">
+        <NavBar />
+        <h3 className="max-lg:hidden text-[117px] text-[#98FAEC] text-center mb-16">Developer </h3>
+        <HomePage />
       </div>
     </BrowserRouter>
   );

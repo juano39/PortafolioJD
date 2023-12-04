@@ -1,48 +1,25 @@
-import { CustomButton } from "./CustomButton";
-import { useState } from "react";
-
 export const NavBar = () => {
-  const [toggle, setToggle] = useState(false);
-  const hanldeHaburger = () => setToggle(!toggle);
   return (
-    <nav className="w-full relative mx-auto sm mb-[80px] z-10  font-bold flex flex-wrap justify-between items-center ">
-      <h3>
-        <img src="logonav.png" />
-      </h3>
-
-      <section
-        className={`flex ${
-          toggle ?"max-sm:animate-navbarCancel" :  "opacity-0"
-        } max-sm:bg-black max-sm:py-14 max-sm:fixed max-sm:w-[50vw] max-sm:h-screen  max-sm:text-2xl  top-0 right-0  justify-between items-center  uppercase max-sm:flex-col max-sm:gap-y-4 sm:flex-wrap gap-x-[35px]`}
-      >
-        <a onClick={hanldeHaburger} href="#home">home</a>
-        <a onClick={hanldeHaburger} href="#about">about me</a>
-        <a onClick={hanldeHaburger} href="#portfolio">portfolio</a>
-        <a onClick={hanldeHaburger} href="#services">services</a>
-        <a onClick={hanldeHaburger} href="#experence">SKILLS</a>
-      </section>
-      <div
-        onClick={hanldeHaburger}
-        className="sm:hidden w-12 h-12 cursor-pointer fixed right-[2PX] top-6 "
-      >
-        <span
-          className={`w-[80%] mb-3 ${
-            toggle ? "animate-topLine" : " "
-          } h-[2px]  bg-white mb-2 rounded-md block`}
-        ></span>
-        <span
-          className={`w-[80%] mb-3 ${
-            toggle ? "animate-middleLine" : ""
-          } h-[2px]  bg-white mb-2 rounded-md block`}
-        ></span>
-        <span
-          className={`w-[80%] ${
-            toggle ? "animate-bottomLine" : ""
-          } h-[2px]  bg-white mb-2 rounded-md block`}
-        ></span>
-      </div>
-
-      <CustomButton classStyle="" text="Contacto" />
+    <nav className="flex justify-between items-center min-w-[342px] mx-auto py-6 border-b border-[#c3c0c0] mb-16">
+      <a href="#">
+        <span className="text-[#12F7D6]"> &lt;JD/&gt; </span> Juan Daniel
+      </a>
+      <ol className="flex justify-around items-center gap-x-4">
+        <li>
+          <a href="#hombe">Home</a>
+        </li>
+        <li>
+          <a href="#blogs">Blogs</a>
+        </li>
+        <li>
+          <img src="shar.png" alt="buscador" />
+        </li>
+        <li className="flex gap-8 ml-4 max-sm:hidden">
+          <img src="Instagram.png" alt="" />
+          <img src="discord.png" alt="" />
+          <img src="github.png" alt="" />
+        </li>
+      </ol>
     </nav>
   );
 };

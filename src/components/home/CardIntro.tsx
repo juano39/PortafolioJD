@@ -1,7 +1,7 @@
 
 export const CardIntro = () => {
   return (
-    <article className="w-[320px] border-4 border-[#ffffff] mx-auto px-6  rounded-tl-[160px] rounded-br-[160px] shadow-custom mb-16">
+    <article className="w-[320px] border-4 border-[#ffffff]  px-6  rounded-tl-[160px] rounded-br-[160px] shadow-custom mb-16">
       <section className="grid justify-items-center mt-9 mb-2">
         <img src="developer.png" alt="" />
         <h2 className="text-[32px]">Juan Daniel</h2>

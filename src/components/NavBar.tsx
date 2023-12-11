@@ -1,6 +1,6 @@
 export const NavBar = () => {
   return (
-    <nav className="flex justify-between items-center min-w-[342px] mx-auto py-6 border-b border-[#c3c0c0] mb-16 sm:text-2xl">
+    <nav className="flex justify-between items-center min-w-[342px] py-6 border-b border-[#c3c0c0] mb-16 sm:text-2xl mx-8 ">
       <a href="#">
         <span className="text-[#12F7D6]"> &lt;JD/&gt; </span> Juan Daniel
       </a>

@@ -1,0 +1,33 @@
+---
+import { Code, Debug } from "astro:components";
+import ExperienceItem from "./ExperienceItem.astro";
+
+const EXPERIENCIE = [
+  {
+    date: "2022 - 2023",
+    position: "Analista de Automatizacion nivel 1",
+    company: "ARUS",
+    curren: false,
+    description:
+      "Aporte mis habilidades en el desarrollo de soluciones como: Vinculas Pj de Bancolombia. En mi rol como Analista de Automatización, aproveché mi experiencia como desarrollador para implementar soluciones automatizadas efectivas. Colaboré en el diseño y ejecución de proyectos, aplicando habilidades especializadas en desarrollo para optimizar procesos internos. Contribuí al aumento de la eficiencia operativa y al logro de objetivos comerciales, destacándome por mi capacidad para traducir requisitos comerciales en soluciones tecnológicas efectivas. ",
+  },
+  {
+    date: "2020 - 2021",
+    position: "Desarrollo de web",
+    company: "SERVICENTRO AUTOYA",
+    curren: false,
+    description:
+      "Aporte mis habilidades en el desarrollo Web: Se implementó la creación de la página web corporativa de la empresa Se desarrolló un sistema de automatización integral para la generación de facturas. Este permite la generación automática de facturas, discriminando claramente entre los conceptos correspondientes a los empleados y los de la empresa",
+  },
+];
+---
+
+<ol class="relative border-s border-gray-200 dark:border-gray-700">
+  {
+    EXPERIENCIE.map((ex) => (
+      <li class="mb-10 ms-6">
+        <ExperienceItem {...ex} />
+      </li>
+    ))
+  }
+</ol>

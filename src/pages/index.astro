@@ -1,0 +1,72 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Badge from "../components/Badge.astro";
+import SectionContainer from "../components/SectionContainer.astro";
+import Projects from "../components/Projects.astro";
+import Experience from "../components/Experience.astro";
+import GitHub from "../icons/GitHub.astro";
+import Linkedin from "../icons/Linkedin.astro";
+import SocialPill from "../icons/SocialPill.astro";
+import Code from "../icons/Code.astro";
+import Briefcase from "../icons/Briefcase.astro";
+import MailIcon from "../icons/Mail.astro";
+import Card from "../components/Card.astro";
+---
+
+<Layout
+  title="Portafolio de Juan Daniel - Desarrollador y Programacion Web Front-End Back-End"
+  description="Contrata a midudev para crear tu aplicación web o móvil. Desarrollador Web y Creador de Contenido. Especializado en crear aplicaciones únicas."
+>
+  <main class="px-4">
+    <SectionContainer id="top" class="py-44 pb-32">
+      <div class="flex items- gap-x-6 mb-4">
+        <img
+          class="rounded-full size-12"
+          src="perfil2.jpg"
+          alt="Juan daniel foto"
+        />
+        <a
+          href="https://www.linkedin.com/in/juanvg39/"
+          target="_blank"
+          rel="noopener"
+          class="flex justify-center items-center"
+          ><Badge>Disponible para trabajar</Badge></a
+        >
+      </div>
+      <h1 class="text-white text-3xl lg:text-5xl font-bold pb-4 lg:pb-7">
+        Hey, Soy Juan Daniel
+      </h1>
+      <h2 class="text-xl lg:text-2xl opacity-80 text-wrap max-w-[700px]">
+        <span class="text-yellow-300">+4 Años de experiencia.</span> Desarrollador
+        Web y Creador de Blog. de Itagui Colombia. Especializado en crear aplicaciones
+        unicas
+      </h2>
+
+      <nav class="flex flex-wrap gap-4 mt-8">
+        <SocialPill href="https://github.com/juano39">
+          <GitHub class="size-4 md:size-6" /> GitHub
+        </SocialPill>
+        <SocialPill href="https://www.linkedin.com/in/juanvg39/">
+          <Linkedin class="size-4 md:size-6" /> Linkedin
+        </SocialPill>
+        <SocialPill href="mailto:juano30633@gmail.com">
+          <MailIcon class="size-4 md:size-6" /> juano30633qgmail.com
+        </SocialPill>
+      </nav>
+    </SectionContainer>
+
+    <SectionContainer id="Experiencia">
+      <h2 class="text-3xl font-semibold mb-6 flex gap-x-3 items-center">
+        <Briefcase class="size-7" /> Experiencia laboral
+      </h2>
+      <Experience />
+    </SectionContainer>
+
+    <SectionContainer id="Experiencia">
+      <h2 class="text-3xl font-semibold mb-6 flex gap-x-3 items-center">
+        <Code class="size-7" /> Proyectos
+      </h2>
+      <Projects />
+    </SectionContainer>
+  </main>
+</Layout>

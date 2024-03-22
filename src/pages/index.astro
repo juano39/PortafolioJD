@@ -10,6 +10,7 @@ import SocialPill from "../icons/SocialPill.astro";
 import Code from "../icons/Code.astro";
 import Briefcase from "../icons/Briefcase.astro";
 import MailIcon from "../icons/Mail.astro";
+import Download from "../icons/Download.astro";
 import Card from "../components/Card.astro";
 ---
 
@@ -33,16 +34,23 @@ import Card from "../components/Card.astro";
           ><Badge>Disponible para trabajar</Badge></a
         >
       </div>
-      <h1 class="text-white text-3xl lg:text-5xl font-bold pb-4 lg:pb-7">
+      <h1
+        class="text-[#0d141c] dark:text-white text-3xl lg:text-5xl font-bold pb-4 lg:pb-7"
+      >
         Hey, Soy Juan Daniel
       </h1>
       <h2 class="text-xl lg:text-2xl opacity-80 text-wrap max-w-[700px]">
-        <span class="text-yellow-300">+4 Años de experiencia.</span> Desarrollador
-        Web y Creador de Blog. de Itagui Colombia. Especializado en crear aplicaciones
-        unicas
+        <span
+          class="text-[#3964c6] dark:text-yellow-300 dark:font-light font-bold"
+          >+4 Años de experiencia.</span
+        > Desarrollador Web y Creador de Blog. de Itagui Colombia. Especializado
+        en crear aplicaciones unicas
       </h2>
 
       <nav class="flex flex-wrap gap-4 mt-8">
+        <SocialPill href="/cv_juan_daniel.pdf" download="Juan Daniel - CV">
+          <Download class="size-4 md:size-6" /> Download CV
+        </SocialPill>
         <SocialPill href="https://github.com/juano39">
           <GitHub class="size-4 md:size-6" /> GitHub
         </SocialPill>
